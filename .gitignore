@@ -1,0 +1,36 @@
+# Rendered deliverables and media files (keep out of git)
+exports/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+*.bin
+*.ggml
+
+# Temporary scratch files
+temp_*.jpg
+*.tmp
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets & local environment files
+.env
+.env.*
+*.key
+*.pem
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

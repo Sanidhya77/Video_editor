@@ -1,0 +1,81 @@
+{
+  "default_game": "gtavi",
+  "games": {
+    "gtavi": {
+      "id": "gtavi",
+      "display_name": "Grand Theft Auto VI",
+      "genre": "Open World / Action-Adventure",
+      "developer": "Rockstar Games",
+      "content_guidelines": "Rockstar Games Policy on Posting Copyrighted Material: gameplay/walkthrough allowed without spoilers/cutscene-only dumps; mute licensed radio music where possible.",
+      "target_resolution": {
+        "width": 1080,
+        "height": 1920,
+        "aspect_ratio": "9:16"
+      },
+      "safe_zones": {
+        "top_margin_px": 180,
+        "bottom_margin_px": 340,
+        "horizontal_margin_px": 60
+      },
+      "default_duration_range": {
+        "min_seconds": 15.0,
+        "max_seconds": 35.0,
+        "default_target_seconds": 22.0
+      },
+      "categories": [
+        {
+          "id": "unexpected_gameplay_stunt",
+          "name": "Unexpected Gameplay / Stunt",
+          "description": "High-speed driving, vehicle flips, near misses, physics anomalies, sudden explosions, or accidental crashes.",
+          "target_duration": 22.0,
+          "pre_roll": 3.5,
+          "post_roll": 3.0,
+          "default_layout": "center_crop",
+          "suggested_hooks": [
+            "Wait for the ending...",
+            "How did he survive this?!",
+            "Watch till the end 💀",
+            "GTA 6 physics are already unmatched",
+            "Only in GTA 6 🚗💥"
+          ]
+        },
+        {
+          "id": "npc_or_mechanic_experiment",
+          "name": "NPC / Game-Mechanic Experiment",
+          "description": "Testing AI reactions, police response escalation, physics limits, and crowd behavior.",
+          "target_duration": 26.0,
+          "pre_roll": 2.5,
+          "post_roll": 2.5,
+          "default_layout": "center_crop",
+          "suggested_hooks": [
+            "Testing GTA 6 NPC logic...",
+            "What happens if you do this in GTA VI?",
+            "The police AI in GTA 6 is wild 🚔",
+            "Rockstar really thought of everything"
+          ]
+        },
+        {
+          "id": "creator_reaction_with_context",
+          "name": "Creator Reaction with Context",
+          "description": "Streamer reaction, shout, laugh, or punchline contextually paired with the gameplay setup.",
+          "target_duration": 20.0,
+          "pre_roll": 4.5,
+          "post_roll": 2.5,
+          "default_layout": "pip",
+          "suggested_hooks": [
+            "His reaction says it all 😭",
+            "Bro was NOT ready for that",
+            "Wait for his face at the end 😂",
+            "He broke his keyboard over this"
+          ]
+        }
+      ],
+      "review_flags": {
+        "spoiler": "Story mission cutscenes or ending revelations",
+        "music_review": "Licensed in-game radio track playing in background",
+        "leak_alert": "Pre-release or leaked development build footage",
+        "audio_flag": "Heavy clipping or potential copyrighted sound effect"
+      }
+    }
+  }
+}

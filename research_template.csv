@@ -1,0 +1,5 @@
+platform,url,creator,date,duration,visible_metrics,observation_date,opening_seconds,on_screen_hook,caption_style,layout,payoff_time,original_commentary,spoiler_flag
+tiktok,https://www.tiktok.com/@gtaviclips/video/7390123456789012345,ViceCityGamer,2026-10-15,00:23,"1.2M views, 142k likes, 2.1k comments",2026-11-17,00:03,"Watch what happens to this cop car 💀",high_contrast_yellow_center,center_crop,00:18,"Bro he flew across the map",false
+instagram_reels,https://www.instagram.com/reel/DC123456789/,LuciaStreamer,2026-10-22,00:29,"850k plays, 95k likes, unavailable comments",2026-11-17,00:02,"Testing if NPCs can drown in GTA 6",high_contrast_white_box,fit_background,00:22,"Wait she actually swam away?!",false
+youtube_shorts,https://www.youtube.com/shorts/AbCdEfGhIjK,JasonSpeedruns,2026-11-01,00:19,"540k views, 48k likes, 980 comments",2026-11-17,00:03,"How did I survive this jump?!",kinetic_bold_outline,pip,00:14,"I screamed so loud my dog ran away",false
+tiktok,unavailable,StreamerX,2026-11-10,00:25,unavailable,2026-11-17,00:04,"The new Vice City physics engine is broken",high_contrast_yellow_center,center_crop,00:20,"No way that just happened live",false

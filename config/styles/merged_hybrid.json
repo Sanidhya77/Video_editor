@@ -1,0 +1,51 @@
+{
+  "preset_id": "merged_hybrid",
+  "name": "Merged Custom Style",
+  "source_reference": "Captions: Viral Streamer Yellow (High-Contrast) | Layout/Pacing: Kinetic Bold White (Fit Background)",
+  "reference_notes": "Captions derived from [Viral Streamer Yellow (High-Contrast)]. Pacing & Layout derived from [Kinetic Bold White (Fit Background)].",
+  "typical_length": 25.0,
+  "min_duration": 18.0,
+  "max_duration": 35.0,
+  "cut_pace": "moderate",
+  "layout_mode": "fit_background",
+  "crop_x_offset_pct": 0.5,
+  "pip_position": "top_right",
+  "zoom_factor": 1.0,
+  "font_name": "Arial Black",
+  "font_size": 70,
+  "primary_color": "&H0000FFFF",
+  "secondary_color": "&H0000FFFF",
+  "outline_color": "&H00000000",
+  "outline_width": 4.5,
+  "shadow_depth": 2.0,
+  "alignment": 2,
+  "margin_v": 380,
+  "margin_h": 60,
+  "highlight_mode": "phrase",
+  "max_lines": 2,
+  "uppercase": true,
+  "hook_style": "top_banner",
+  "hook_font_size": 72,
+  "hook_color": "&H0000FFFF",
+  "hook_duration": 3.0,
+  "observed_traits": {
+    "captions_source": "Viral Streamer Yellow (High-Contrast)",
+    "captions_traits": {
+      "primary_color": "Yellow (&H0000FFFF)",
+      "position": "Lower third above Instagram/TikTok overlay (~380px margin)"
+    },
+    "layout_source": "Kinetic Bold White (Fit Background)",
+    "layout_traits": {
+      "layout": "fit_background with blurred ambient",
+      "caption_color": "White"
+    }
+  },
+  "inferred_traits": {
+    "caption_inferences": {
+      "font": "Arial Black bold",
+      "line_wrapping": "Max 2 lines"
+    },
+    "layout_inferences": {}
+  },
+  "unknown_traits": []
+}

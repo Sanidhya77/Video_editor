@@ -1,0 +1,47 @@
+{
+  "preset_id": "test_style",
+  "name": "Custom Notes Preset",
+  "source_reference": "Manual Style Notes",
+  "reference_notes": "Fast-paced GTA VI stunt clip, bold yellow Arial Black captions, top hook banner, 20s length, center crop",
+  "typical_length": 20.0,
+  "min_duration": 15.0,
+  "max_duration": 28.0,
+  "cut_pace": "rapid",
+  "layout_mode": "center_crop",
+  "crop_x_offset_pct": 0.5,
+  "pip_position": "top_right",
+  "zoom_factor": 1.0,
+  "font_name": "Arial Black",
+  "font_size": 68,
+  "primary_color": "&H0000FFFF",
+  "secondary_color": "&H0000FFFF",
+  "outline_color": "&H00000000",
+  "outline_width": 4.5,
+  "shadow_depth": 2.0,
+  "alignment": 2,
+  "margin_v": 380,
+  "margin_h": 60,
+  "highlight_mode": "phrase",
+  "max_lines": 2,
+  "uppercase": true,
+  "hook_style": "top_banner",
+  "hook_font_size": 72,
+  "hook_color": "&H0000FFFF",
+  "hook_duration": 3.0,
+  "observed_traits": {
+    "primary_color": "Yellow (#00FFFF in ASS)",
+    "font_name": "Arial Black",
+    "typical_length": "20.0s",
+    "cut_pace": "Rapid cuts"
+  },
+  "inferred_traits": {
+    "layout_mode": "Center 9:16 crop",
+    "highlight_mode": "Stable phrase captions (max 2 lines)",
+    "hook_style": "Top headline banner"
+  },
+  "unknown_traits": [
+    "exact_subtitle_outline_thickness_px",
+    "exact_video_bitrate",
+    "color_grading_lut"
+  ]
+}

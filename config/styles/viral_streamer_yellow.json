@@ -1,0 +1,40 @@
+{
+  "preset_id": "viral_streamer_yellow",
+  "name": "Viral Streamer Yellow (High-Contrast)",
+  "source_reference": "Benchmark GTA Reel analysis",
+  "reference_notes": "High contrast yellow subtitles in lower-third safe zone with black outline; top red/yellow hook banner; rapid pacing.",
+  "typical_length": 22.0,
+  "min_duration": 15.0,
+  "max_duration": 35.0,
+  "cut_pace": "rapid",
+  "layout_mode": "center_crop",
+  "crop_x_offset_pct": 0.5,
+  "pip_position": "top_right",
+  "zoom_factor": 1.0,
+  "font_name": "Arial Black",
+  "font_size": 70,
+  "primary_color": "&H0000FFFF",
+  "secondary_color": "&H0000FFFF",
+  "outline_color": "&H00000000",
+  "outline_width": 4.5,
+  "shadow_depth": 2.0,
+  "alignment": 2,
+  "margin_v": 380,
+  "margin_h": 60,
+  "highlight_mode": "phrase",
+  "max_lines": 2,
+  "uppercase": true,
+  "hook_style": "top_banner",
+  "hook_font_size": 72,
+  "hook_color": "&H0000FFFF",
+  "hook_duration": 3.2,
+  "observed_traits": {
+    "primary_color": "Yellow (&H0000FFFF)",
+    "position": "Lower third above Instagram/TikTok overlay (~380px margin)"
+  },
+  "inferred_traits": {
+    "font": "Arial Black bold",
+    "line_wrapping": "Max 2 lines"
+  },
+  "unknown_traits": []
+}
